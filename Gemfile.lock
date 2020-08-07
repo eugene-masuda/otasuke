@@ -64,6 +64,9 @@ GEM
       msgpack (~> 1.0)
     brakeman (4.8.0)
     builder (3.2.4)
+    bulma-extensions-rails (1.0.30)
+    bulma-rails (0.7.5)
+      sassc (~> 2.0)
     byebug (11.1.1)
     capybara (3.31.0)
       addressable
@@ -306,6 +309,8 @@ PLATFORMS
 DEPENDENCIES
   bootsnap (>= 1.4.2)
   brakeman
+  bulma-extensions-rails
+  bulma-rails
   byebug
   capybara (>= 2.15)
   factory_bot_rails
@@ -342,4 +347,4 @@ RUBY VERSION
    ruby 2.6.5p114
 
 BUNDLED WITH
-   2.1.2
+   2.1.4
