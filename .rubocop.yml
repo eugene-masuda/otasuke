@@ -100,3 +100,12 @@ RSpec/MultipleExpectations:
 # https://rubocop-rspec.readthedocs.io/en/latest/cops_rspec/#rspecinstancevariable
 RSpec/InstanceVariable:
   Enabled: false
+
+Style/StringLiterals:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/EmptyMethod:
+  Enabled: false
