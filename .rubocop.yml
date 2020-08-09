@@ -110,3 +110,15 @@ Style/FrozenStringLiteralComment:
 
 Style/EmptyMethod:
   Enabled: false
+
+Lint/UnusedMethodArgument:
+  Enabled: false
+
+Layout/EmptyLinesAroundAccessModifier:
+  Enabled: false
+
+Rails/ActiveRecordAliases:
+  Enabled: false
+
+Layout/EmptyLinesAroundBlockBody:
+  Enabled: false

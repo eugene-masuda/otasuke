@@ -9,7 +9,6 @@ Rails.application.routes.draw do
   get 'high_scores/index'
 
   post '/users/edit', to: 'users#update'
-  
 
   resources :high_scores
   root 'pages#home'
